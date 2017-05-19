@@ -6,3 +6,86 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+
+body{
+	background-color: #F78E69;
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Raleway';
+}
+
+.img-pandasGr{
+    filter: grayscale(100%);
+}
+
+#fotoGr1{
+	background: url("../img/uno.jpg");
+	background-position: center;
+	padding: 200px 0;
+	background-size: cover;
+}
+
+#encabezado {
+	text-align: right;
+	color: white;
+	padding: 50px 40px;
+}
+
+#encabezado h1{
+	font-size: 56px;
+	margin-bottom: 0;
+}
+
+.about{
+	background-color: #ABE188;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px 30px;
+}
+
+#aboutPandas{
+	background-color: #F78E69;
+	color: white;
+	text-align: center;
+	margin: 40px 390px;
+	padding: 10px 20px;
+}
+
+#fotoGr2{
+	background: url("../img/dos.jpg");
+	background-position: top;
+	padding: 340px 0;
+	background-size: cover;
+}
+
+.pictures{
+	background-color: #ABE188;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 50px 20px;
+	text-align: center;
+	color: white;
+}
+
+.pictures h1{
+	font-size: 50px;	
+}
+
+.fotos{
+    border: 10px solid white;
+    margin: 25px;
+}
+
+#fotoGr3{
+	background: url("../img/tres.jpg");
+	background-position: center;
+	padding: 340px 0;
+	background-size: cover;
+}
+
+footer{
+	color: white;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 20px;
+}
